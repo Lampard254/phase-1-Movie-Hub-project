@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOVIE HUB</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/cards.css" />
+    <link
+      rel="shortcut icon"
+      href="./resources/movie.png"
+      type="image/x-icon"
+    />
+    <script src="./src/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#"
+            ><span style="font-family: Merienda, cursive"
+              >MOVIE<em style="color: #8c73f1">HUB</em></span
+            ></a
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            height="24"
+            width="24"
+          >
+            <g id="a">
+              <g style="--c1: 120; --c2: 0; --delay: -0.5s">
+                <path id="b"></path>
+                <path id="c"></path>
+              </g>
+              <g style="--c1: 210; --c2: 60" transform="rotate(180 12 12)">
+                <path id="b"></path>
+                <path id="c"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search..." />
+          <button type="submit" id="search-btn">Search</button>
+        </div>
+        <ul>
+          <li><a href="#">Shows</a></li>
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p id="page-title">TV Shows</p>
+      <section id="show-content">
+        <div class="show-cards"></div>
+        <!-- Show Cards -->
+        <div class="filter-section"></div>
+        <!-- filter section -->
+      </section>
+      <div class="pagination-reference"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 MOVIE HUB. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
